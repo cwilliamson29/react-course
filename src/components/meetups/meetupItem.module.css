@@ -1,0 +1,56 @@
+.item {
+    width: 100%;
+    margin: 1rem auto;
+    background-color: blue;
+    border-radius: 6px;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+}
+
+.content h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content address {
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.content p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.actions {
+    margin: auto;
+    width: 125px;
+    height: 30px;
+    background-color: maroon;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+.actions:hover {
+    background-color: rgba(128, 0, 0, 0.815);
+}

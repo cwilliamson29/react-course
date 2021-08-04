@@ -1,0 +1,82 @@
+    /***********************************************
+*Copyright 2021 - Chris Williamson
+*NO BS libraries under open source license
+*All I ask is give credit where credit is due.
+*You may use this for personal or commercial
+************************************************/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        width: 100%;
+        min-height: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /********************
+***CSS variables
+*********************/
+    
+     :root {
+        /*Navbar main background color*/
+        --color1: maroon;
+        /*Navbar secondary color*/
+        --color2: rgb(211, 211, 211);
+    }
+    
+    a:visited {
+        color: var(--color2);
+    }
+    
+    a:hover {
+        color: white;
+    }
+    
+    .navBar {
+        width: 100%;
+        height: 60px;
+        padding-left: 10%;
+        padding-right: 10%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-color: var(--color1);
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        height: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+        font-size: 20pt;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navLinks {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        list-style-type: none;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+    
+    .navLinksLi {
+        height: 100%;
+        width: 165px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 14pt;
+        font-weight: bold;
+        color: var(--color2);
+    }
