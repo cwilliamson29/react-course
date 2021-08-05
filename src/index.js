@@ -5,10 +5,14 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 
 import App from './App';
+import { FavoritescontextProvider } from './store/favorites-context';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <FavoritescontextProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </FavoritescontextProvider>,
+
   document.getElementById('root')
 );

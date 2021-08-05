@@ -1,0 +1,51 @@
+.form {
+    padding: 20px;
+}
+
+.control {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.control label {
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.control input {
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.control textarea {
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.actions {
+    width: 100%;
+    text-align: right;
+}
+
+.actions button {
+    width: 150px;
+    padding: 10px;
+    background-color: maroon;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.actions button:hover {
+    background-color: rgba(128, 0, 0, 0.808);
+}
